@@ -1,0 +1,13 @@
+netflix_project:
+  outputs:
+    dev:
+      account: TPWFGIP-DJ72811
+      database: NETFLIX
+      password: DataEngineer2026
+      role: ACCOUNTADMIN
+      schema: default
+      threads: 1
+      type: snowflake
+      user: PRAYANSHU
+      warehouse: SNOWFLAKE_LEARNING_WH
+  target: dev

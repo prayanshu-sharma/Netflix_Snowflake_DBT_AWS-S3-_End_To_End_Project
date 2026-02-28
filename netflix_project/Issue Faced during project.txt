@@ -1,0 +1,9 @@
+1-Database Error in model fact_table (models\gold\fact_table.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'NETFLIX.GOLD.DIM_LISTINGS' does not exist or not authorized.
+  compiled code at target\run\netflix_project\models\gold\fact_table.sql
+
+2-Database Error
+002003 (42S02): SQL compilation error: Object 'NETFLIX.GOLD.NETFLIX_TITLES' does not exist or not authorized.
+
+3-Database Error 001003 (42000): SQL compilation error: syntax error line 6 at position 4 unexpected 'FROM'. due to cast column written so use double quotesand resolved that issue.

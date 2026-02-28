@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: staging
+    database: NETFLIX
+    schema: STAGING
+    tables:
+      - name: netflix_category
